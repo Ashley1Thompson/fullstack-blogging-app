@@ -7,6 +7,10 @@ User.hasMany(Content, {
 
 Content.belongsTo(User, {
   foreignKey: 'user_id'
-})
+});
+
+Content.hasMany(Comment);
+
+User.hasMany(Comment);
 
 module.exports = { User, Content };
