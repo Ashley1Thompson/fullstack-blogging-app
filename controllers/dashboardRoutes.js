@@ -9,7 +9,7 @@ router.get("/", withAuth, (req, res) => {
     })
       .then(dbPostData => {
         const posts = dbPostData.map((post) => post.get({ plain: true }));
-        res.render("all-posts-admin", {
+        res.render("allContentAdmin", {
           layout: "dashboard",
           posts
         });
@@ -20,7 +20,7 @@ router.get("/", withAuth, (req, res) => {
       });
   });
   router.get("/new", withAuth, (req, res) => {
-    res.render("new-post", {
+    res.render("newContent", {
       layout: "dashboard"
     });
   });
@@ -29,7 +29,7 @@ router.get("/", withAuth, (req, res) => {
       .then(dbPostData => {
         if (dbPostData) {
           const post = dbPostData.get({ plain: true });
-          res.render("edit-post", {
+          res.render("editContent", {
             layout: "dashboard",
             post
           });
