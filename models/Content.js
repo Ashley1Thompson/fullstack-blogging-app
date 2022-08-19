@@ -31,3 +31,5 @@ Content.init(
   underscored: true,
   modelName: 'Content',
 });
+
+module.exports = Content;

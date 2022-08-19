@@ -39,4 +39,4 @@ User.init(
   modelName: 'User',
 });
 
-Model.exports = User;
+module.exports = User;
