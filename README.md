@@ -13,8 +13,12 @@ A personal blogging website with signup/login/logout functionality, and persiste
 ## Installation
 Open web app at
 ## Usage
-1. Log in or sign upif you do not have an existing username and password.  2.Create a post! 3. Interact with other posts by leaving a comment.  4. Log out.   
+1. Log in or sign up if you do not have an existing username and password. 
+2.Create a post!  
+3. Interact with other posts by leaving a comment.  
+4. Log out.   
 ## Features
+
 
 ## Credits
 Ashley Thompson
