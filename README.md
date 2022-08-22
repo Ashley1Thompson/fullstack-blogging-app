@@ -11,7 +11,7 @@
 ## Description
 A personal blogging website with signup/login/logout functionality, and persistent data. 
 ## Installation
-Open web app at
+Open web app [here](https://ashley1thompson.github.io/fullstack-blogging-app/).
 ## Usage
 1. Log in or sign up if you do not have an existing username and password. 
 2.Create a post!  
